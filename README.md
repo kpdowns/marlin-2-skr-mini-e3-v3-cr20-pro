@@ -116,9 +116,14 @@ Proposed patches should be submitted as a Pull Request against the ([bugfix-2.0.
   - You can use `make tests-all-local` or `make tests-single-local TEST_TARGET=...`.
   - If you prefer Docker you can use `make tests-all-local-docker` or `make tests-all-local-docker TEST_TARGET=...`.
 
-## Creality CR20 LCD Physical Modifications
+## CR20 Pro Configuration
+### Creality CR20 LCD Physical Modifications
 
 In order to use the standard Creality CR20 Pro, you will need to manually wire cables from the BTT SKR Mini e3 v3.0 to the dual EXP ports on the LCD. A wiring diagram can be found at https://github.com/Klipper3d/klipper/issues/3805.
+
+### BLTouch Configuration
+
+The BLTouch sensor has been configured to use the standard mounting plug provided by the SKR Mini (not a replacement for the Z endstop). Instructions can be found at https://3dprintscape.com/bltouch-on-skr-mini-install-guide/.
 
 ### [RepRap.org Wiki Page](https://reprap.org/wiki/Marlin)
 
