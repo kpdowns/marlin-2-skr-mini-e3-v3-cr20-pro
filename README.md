@@ -116,6 +116,10 @@ Proposed patches should be submitted as a Pull Request against the ([bugfix-2.0.
   - You can use `make tests-all-local` or `make tests-single-local TEST_TARGET=...`.
   - If you prefer Docker you can use `make tests-all-local-docker` or `make tests-all-local-docker TEST_TARGET=...`.
 
+## Creality CR20 LCD Physical Modifications
+
+In order to use the standard Creality CR20 Pro, you will need to manually wire cables from the BTT SKR Mini e3 v3.0 to the dual EXP ports on the LCD. A wiring diagram can be found at https://github.com/Klipper3d/klipper/issues/3805.
+
 ### [RepRap.org Wiki Page](https://reprap.org/wiki/Marlin)
 
 ## Credits
